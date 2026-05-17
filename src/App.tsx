@@ -170,7 +170,7 @@ const App: React.FC = () => {
         style={{ backgroundColor: 'var(--Bibliolinks-cardinal)', color: 'white' }}
       >
         <div className="container">
-          <div style={{ display: 'flex', flexDirection: 'column', md: { flexDirection: 'row' }, justifyContent: 'space-between', flexWrap: 'wrap', gap: '3rem' }}>
+          <div className="footer-content" style={{ display: 'flex', flexDirection: 'column', justifyContent: 'space-between', flexWrap: 'wrap', gap: '3rem' }}>
             <div style={{ flex: '1 1 300px' }}>
               <h2 style={{ color: 'white', marginBottom: '1.5rem', borderBottom: '2px solid rgba(255,255,255,0.3)', display: 'inline-block', paddingBottom: '0.5rem' }}>Bibliolinks Academic Hub</h2>
               <p style={{ color: 'rgba(255,255,255,0.9)', fontSize: '0.9rem' }}>
@@ -201,6 +201,10 @@ const App: React.FC = () => {
         </div>
         <style>{`
           .main-footer { padding: 80px 0; }
+          .footer-content { flex-direction: column; }
+          @media (min-width: 768px) {
+            .footer-content { flex-direction: row; }
+          }
           @media (max-width: 768px) {
             .main-footer { padding: 40px 0; }
           }
