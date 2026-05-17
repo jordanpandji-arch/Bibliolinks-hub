@@ -1,0 +1,450 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - link "Bibliolinks Academic Hub" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e6]: Bibliolinks
+        - generic [ref=e7]: Academic Hub
+      - button [ref=e9] [cursor=pointer]:
+        - img [ref=e10]
+  - main [ref=e11]:
+    - generic [ref=e16]:
+      - heading "Le Portail du Savoir Universel" [level=2] [ref=e17]
+      - heading "Accédez gratuitement au savoir mondial." [level=1] [ref=e18]
+      - paragraph [ref=e19]: Une plateforme académique centralisant les bibliothèques numériques les plus prestigieuses pour une éducation sans frontières.
+    - generic [ref=e20]:
+      - generic [ref=e22]:
+        - img [ref=e23]
+        - textbox "Rechercher une bibliothèque, un domaine ou un sujet..." [ref=e26]
+      - generic [ref=e27]:
+        - generic [ref=e28]:
+          - heading "Ressources Mondiales" [level=2] [ref=e29]
+          - heading "Bibliothèques Numériques Ouvertes" [level=1] [ref=e30]
+        - generic [ref=e31]:
+          - generic [ref=e33]:
+            - generic [ref=e34]:
+              - img "Internet Archive" [ref=e35]
+              - generic [ref=e36]: 38M+ livres
+            - generic [ref=e37]:
+              - generic [ref=e38]:
+                - generic [ref=e39]: Multi-domaine
+                - generic [ref=e40]: Multimédia
+              - heading "Internet Archive" [level=3] [ref=e41]
+              - paragraph [ref=e42]: Une bibliothèque numérique à but non lucratif offrant un accès gratuit à des millions de livres, de films, de logiciels et de musique.
+              - generic [ref=e43]:
+                - button "Explorer" [ref=e44] [cursor=pointer]:
+                  - text: Explorer
+                  - img [ref=e45]
+                - button [ref=e49] [cursor=pointer]:
+                  - img [ref=e50]
+          - generic [ref=e53]:
+            - generic [ref=e54]:
+              - img "Anna’s Archive" [ref=e55]
+              - generic [ref=e56]: 30M+ Livres
+            - generic [ref=e57]:
+              - generic [ref=e58]:
+                - generic [ref=e59]: Libre Accès
+                - generic [ref=e60]: Livres & Articles
+              - heading "Anna’s Archive" [level=3] [ref=e61]
+              - paragraph [ref=e62]: Le plus grand moteur de recherche de bibliothèques fantômes au monde, centralisant l'accès à des millions de livres et d'articles scientifiques.
+              - generic [ref=e63]:
+                - button "Explorer" [ref=e64] [cursor=pointer]:
+                  - text: Explorer
+                  - img [ref=e65]
+                - button [ref=e69] [cursor=pointer]:
+                  - img [ref=e70]
+          - generic [ref=e73]:
+            - generic [ref=e74]:
+              - img "Z-Library" [ref=e75]
+              - generic [ref=e76]: 14M+ eBooks
+            - generic [ref=e77]:
+              - generic [ref=e78]:
+                - generic [ref=e79]: Livres
+                - generic [ref=e80]: Académique
+              - heading "Z-Library" [level=3] [ref=e81]
+              - paragraph [ref=e82]: L'une des plus vastes bibliothèques numériques en ligne, offrant un accès gratuit à une immense collection de livres et de revues académiques.
+              - generic [ref=e83]:
+                - button "Explorer" [ref=e84] [cursor=pointer]:
+                  - text: Explorer
+                  - img [ref=e85]
+                - button [ref=e89] [cursor=pointer]:
+                  - img [ref=e90]
+          - generic [ref=e93]:
+            - generic [ref=e94]:
+              - img "Sci-Hub" [ref=e95]
+              - generic [ref=e96]: 88M+ Articles
+            - generic [ref=e97]:
+              - generic [ref=e98]:
+                - generic [ref=e99]: Science
+                - generic [ref=e100]: Recherche
+              - heading "Sci-Hub" [level=3] [ref=e101]
+              - paragraph [ref=e102]: Une plateforme révolutionnaire fournissant un accès gratuit à presque toutes les publications scientifiques mondiales pour supprimer les barrières au savoir.
+              - generic [ref=e103]:
+                - button "Explorer" [ref=e104] [cursor=pointer]:
+                  - text: Explorer
+                  - img [ref=e105]
+                - button [ref=e109] [cursor=pointer]:
+                  - img [ref=e110]
+          - generic [ref=e113]:
+            - generic [ref=e114]:
+              - img "Project Gutenberg" [ref=e115]
+              - generic [ref=e116]: 60k+ eBooks
+            - generic [ref=e117]:
+              - generic [ref=e118]:
+                - generic [ref=e119]: Littérature
+                - generic [ref=e120]: Classiques
+              - heading "Project Gutenberg" [level=3] [ref=e121]
+              - paragraph [ref=e122]: La plus ancienne bibliothèque numérique au monde, proposant plus de 60 000 livres électroniques gratuits, principalement des classiques du domaine public.
+              - generic [ref=e123]:
+                - button "Explorer" [ref=e124] [cursor=pointer]:
+                  - text: Explorer
+                  - img [ref=e125]
+                - button [ref=e129] [cursor=pointer]:
+                  - img [ref=e130]
+          - generic [ref=e133]:
+            - generic [ref=e134]:
+              - img "Open Library" [ref=e135]
+              - generic [ref=e136]: 20M+ Éditions
+            - generic [ref=e137]:
+              - generic [ref=e138]:
+                - generic [ref=e139]: Livres
+                - generic [ref=e140]: Archives
+              - heading "Open Library" [level=3] [ref=e141]
+              - paragraph [ref=e142]: Un projet de l'Internet Archive visant à créer 'une page web pour chaque livre jamais publié'. Accès libre à des millions de titres empruntables.
+              - generic [ref=e143]:
+                - button "Explorer" [ref=e144] [cursor=pointer]:
+                  - text: Explorer
+                  - img [ref=e145]
+                - button [ref=e149] [cursor=pointer]:
+                  - img [ref=e150]
+          - generic [ref=e153]:
+            - generic [ref=e154]:
+              - img "JSTOR Open Content" [ref=e155]
+              - generic [ref=e156]: 6k+ Revues
+            - generic [ref=e157]:
+              - generic [ref=e158]:
+                - generic [ref=e159]: Académique
+                - generic [ref=e160]: Recherche
+              - heading "JSTOR Open Content" [level=3] [ref=e161]
+              - paragraph [ref=e162]: Accès libre à des milliers de revues académiques, de livres et de rapports de recherche dans de nombreuses disciplines.
+              - generic [ref=e163]:
+                - button "Explorer" [ref=e164] [cursor=pointer]:
+                  - text: Explorer
+                  - img [ref=e165]
+                - button [ref=e169] [cursor=pointer]:
+                  - img [ref=e170]
+          - generic [ref=e173]:
+            - generic [ref=e174]:
+              - img "DOAB" [ref=e175]
+              - generic [ref=e176]: 66k+ Livres
+            - generic [ref=e177]:
+              - generic [ref=e178]:
+                - generic [ref=e179]: Académique
+                - generic [ref=e180]: Livres
+              - heading "DOAB" [level=3] [ref=e181]
+              - paragraph [ref=e182]: Directory of Open Access Books. Service de découverte indexant des milliers de livres académiques en libre accès évalués par des pairs.
+              - generic [ref=e183]:
+                - button "Explorer" [ref=e184] [cursor=pointer]:
+                  - text: Explorer
+                  - img [ref=e185]
+                - button [ref=e189] [cursor=pointer]:
+                  - img [ref=e190]
+          - generic [ref=e193]:
+            - generic [ref=e194]:
+              - img "Europeana" [ref=e195]
+              - generic [ref=e196]: 50M+ Objets
+            - generic [ref=e197]:
+              - generic [ref=e198]:
+                - generic [ref=e199]: Culture
+                - generic [ref=e200]: Art
+              - heading "Europeana" [level=3] [ref=e201]
+              - paragraph [ref=e202]: La plateforme culturelle de l'Union européenne, donnant accès à des millions d'œuvres d'art, de livres et de vidéos des musées et bibliothèques d'Europe.
+              - generic [ref=e203]:
+                - button "Explorer" [ref=e204] [cursor=pointer]:
+                  - text: Explorer
+                  - img [ref=e205]
+                - button [ref=e209] [cursor=pointer]:
+                  - img [ref=e210]
+          - generic [ref=e213]:
+            - generic [ref=e214]:
+              - img "HathiTrust" [ref=e215]
+              - generic [ref=e216]: 17M+ Volumes
+            - generic [ref=e217]:
+              - generic [ref=e218]:
+                - generic [ref=e219]: Archives
+                - generic [ref=e220]: Académique
+              - heading "HathiTrust" [level=3] [ref=e221]
+              - paragraph [ref=e222]: Un immense dépôt collaboratif de contenu numérique provenant de grandes bibliothèques de recherche, incluant des millions de titres du domaine public.
+              - generic [ref=e223]:
+                - button "Explorer" [ref=e224] [cursor=pointer]:
+                  - text: Explorer
+                  - img [ref=e225]
+                - button [ref=e229] [cursor=pointer]:
+                  - img [ref=e230]
+          - generic [ref=e233]:
+            - generic [ref=e234]:
+              - img "OpenStax" [ref=e235]
+              - generic [ref=e236]: 100% Gratuit
+            - generic [ref=e237]:
+              - generic [ref=e238]:
+                - generic [ref=e239]: Éducation
+                - generic [ref=e240]: Manuels
+              - heading "OpenStax" [level=3] [ref=e241]
+              - paragraph [ref=e242]: Manuels scolaires gratuits et de haute qualité pour le collège et l'université, développés par l'Université Rice.
+              - generic [ref=e243]:
+                - button "Explorer" [ref=e244] [cursor=pointer]:
+                  - text: Explorer
+                  - img [ref=e245]
+                - button [ref=e249] [cursor=pointer]:
+                  - img [ref=e250]
+          - generic [ref=e253]:
+            - generic [ref=e254]:
+              - img "PubMed Central" [ref=e255]
+              - generic [ref=e256]: 9M+ Articles
+            - generic [ref=e257]:
+              - generic [ref=e258]:
+                - generic [ref=e259]: Médecine
+                - generic [ref=e260]: Sciences
+              - heading "PubMed Central" [level=3] [ref=e261]
+              - paragraph [ref=e262]: Archives gratuites de textes complets de revues biomédicales et de sciences de la vie des National Institutes of Health des États-Unis.
+              - generic [ref=e263]:
+                - button "Explorer" [ref=e264] [cursor=pointer]:
+                  - text: Explorer
+                  - img [ref=e265]
+                - button [ref=e269] [cursor=pointer]:
+                  - img [ref=e270]
+          - generic [ref=e273]:
+            - generic [ref=e274]:
+              - img "arXiv" [ref=e275]
+              - generic [ref=e276]: 2M+ Articles
+            - generic [ref=e277]:
+              - generic [ref=e278]:
+                - generic [ref=e279]: Science
+                - generic [ref=e280]: Technologie
+              - heading "arXiv" [level=3] [ref=e281]
+              - paragraph [ref=e282]: Service de distribution gratuit et archives en libre accès pour plus de 2 millions d'articles savants en physique, mathématiques et informatique.
+              - generic [ref=e283]:
+                - button "Explorer" [ref=e284] [cursor=pointer]:
+                  - text: Explorer
+                  - img [ref=e285]
+                - button [ref=e289] [cursor=pointer]:
+                  - img [ref=e290]
+          - generic [ref=e293]:
+            - generic [ref=e294]:
+              - img "CORE" [ref=e295]
+              - generic [ref=e296]: 210M+ Articles
+            - generic [ref=e297]:
+              - generic [ref=e298]:
+                - generic [ref=e299]: Recherche
+                - generic [ref=e300]: Open Access
+              - heading "CORE" [level=3] [ref=e301]
+              - paragraph [ref=e302]: Le plus grand agrégateur au monde d'articles de recherche en libre accès provenant de dépôts et de revues.
+              - generic [ref=e303]:
+                - button "Explorer" [ref=e304] [cursor=pointer]:
+                  - text: Explorer
+                  - img [ref=e305]
+                - button [ref=e309] [cursor=pointer]:
+                  - img [ref=e310]
+          - generic [ref=e313]:
+            - generic [ref=e314]:
+              - img "SciELO" [ref=e315]
+              - generic [ref=e316]: 1M+ Articles
+            - generic [ref=e317]:
+              - generic [ref=e318]:
+                - generic [ref=e319]: Science
+                - generic [ref=e320]: International
+              - heading "SciELO" [level=3] [ref=e321]
+              - paragraph [ref=e322]: Une bibliothèque électronique coopérative de revues scientifiques en libre accès, particulièrement riche pour l'Amérique latine et les Caraïbes.
+              - generic [ref=e323]:
+                - button "Explorer" [ref=e324] [cursor=pointer]:
+                  - text: Explorer
+                  - img [ref=e325]
+                - button [ref=e329] [cursor=pointer]:
+                  - img [ref=e330]
+          - generic [ref=e333]:
+            - generic [ref=e334]:
+              - img "DOAJ" [ref=e335]
+              - generic [ref=e336]: 19k+ Revues
+            - generic [ref=e337]:
+              - generic [ref=e338]:
+                - generic [ref=e339]: Académique
+                - generic [ref=e340]: Revues
+              - heading "DOAJ" [level=3] [ref=e341]
+              - paragraph [ref=e342]: Directory of Open Access Journals. Index indépendant et multidisciplinaire de revues en libre accès de haute qualité.
+              - generic [ref=e343]:
+                - button "Explorer" [ref=e344] [cursor=pointer]:
+                  - text: Explorer
+                  - img [ref=e345]
+                - button [ref=e349] [cursor=pointer]:
+                  - img [ref=e350]
+          - generic [ref=e353]:
+            - generic [ref=e354]:
+              - img "Wikisource" [ref=e355]
+              - generic [ref=e356]: 5M+ Textes
+            - generic [ref=e357]:
+              - generic [ref=e358]:
+                - generic [ref=e359]: Histoire
+                - generic [ref=e360]: Documents
+              - heading "Wikisource" [level=3] [ref=e361]
+              - paragraph [ref=e362]: Une bibliothèque de textes sources libres, gérée par la communauté Wikimedia, incluant des documents historiques originaux.
+              - generic [ref=e363]:
+                - button "Explorer" [ref=e364] [cursor=pointer]:
+                  - text: Explorer
+                  - img [ref=e365]
+                - button [ref=e369] [cursor=pointer]:
+                  - img [ref=e370]
+          - generic [ref=e373]:
+            - generic [ref=e374]:
+              - img "Gallica" [ref=e375]
+              - generic [ref=e376]: 10M+ Docs
+            - generic [ref=e377]:
+              - generic [ref=e378]:
+                - generic [ref=e379]: Patrimoine
+                - generic [ref=e380]: Histoire
+              - heading "Gallica" [level=3] [ref=e381]
+              - paragraph [ref=e382]: La bibliothèque numérique de la Bibliothèque nationale de France et de ses partenaires. Des millions de documents du patrimoine français.
+              - generic [ref=e383]:
+                - button "Explorer" [ref=e384] [cursor=pointer]:
+                  - text: Explorer
+                  - img [ref=e385]
+                - button [ref=e389] [cursor=pointer]:
+                  - img [ref=e390]
+          - generic [ref=e393]:
+            - generic [ref=e394]:
+              - img "Semantic Scholar" [ref=e395]
+              - generic [ref=e396]: 211M+ Articles
+            - generic [ref=e397]:
+              - generic [ref=e398]:
+                - generic [ref=e399]: IA
+                - generic [ref=e400]: Recherche
+              - heading "Semantic Scholar" [level=3] [ref=e401]
+              - paragraph [ref=e402]: Outil de recherche de littérature scientifique alimenté par l'IA, offrant des extractions et des connexions intelligentes.
+              - generic [ref=e403]:
+                - button "Explorer" [ref=e404] [cursor=pointer]:
+                  - text: Explorer
+                  - img [ref=e405]
+                - button [ref=e409] [cursor=pointer]:
+                  - img [ref=e410]
+          - generic [ref=e413]:
+            - generic [ref=e414]:
+              - img "ERIC" [ref=e415]
+              - generic [ref=e416]: 1.6M+ Records
+            - generic [ref=e417]:
+              - generic [ref=e418]:
+                - generic [ref=e419]: Éducation
+                - generic [ref=e420]: Recherche
+              - heading "ERIC" [level=3] [ref=e421]
+              - paragraph [ref=e422]: Education Resources Information Center. Une immense base de données numérique de littérature et de recherche sur l'éducation.
+              - generic [ref=e423]:
+                - button "Explorer" [ref=e424] [cursor=pointer]:
+                  - text: Explorer
+                  - img [ref=e425]
+                - button [ref=e429] [cursor=pointer]:
+                  - img [ref=e430]
+          - generic [ref=e433]:
+            - generic [ref=e434]:
+              - img "SSRN" [ref=e435]
+              - generic [ref=e436]: 1M+ Papers
+            - generic [ref=e437]:
+              - generic [ref=e438]:
+                - generic [ref=e439]: Sciences Sociales
+                - generic [ref=e440]: Économie
+              - heading "SSRN" [level=3] [ref=e441]
+              - paragraph [ref=e442]: Social Science Research Network. Un dépôt mondial pour la recherche académique en sciences sociales et humaines.
+              - generic [ref=e443]:
+                - button "Explorer" [ref=e444] [cursor=pointer]:
+                  - text: Explorer
+                  - img [ref=e445]
+                - button [ref=e449] [cursor=pointer]:
+                  - img [ref=e450]
+          - generic [ref=e453]:
+            - generic [ref=e454]:
+              - img "bioRxiv" [ref=e455]
+              - generic [ref=e456]: 200k+ Preprints
+            - generic [ref=e457]:
+              - generic [ref=e458]:
+                - generic [ref=e459]: Biologie
+                - generic [ref=e460]: Science
+              - heading "bioRxiv" [level=3] [ref=e461]
+              - paragraph [ref=e462]: Le serveur de prépublication gratuit en libre accès pour la biologie de Cold Spring Harbor Laboratory.
+              - generic [ref=e463]:
+                - button "Explorer" [ref=e464] [cursor=pointer]:
+                  - text: Explorer
+                  - img [ref=e465]
+                - button [ref=e469] [cursor=pointer]:
+                  - img [ref=e470]
+          - generic [ref=e473]:
+            - generic [ref=e474]:
+              - img "Zenodo" [ref=e475]
+              - generic [ref=e476]: Open Data
+            - generic [ref=e477]:
+              - generic [ref=e478]:
+                - generic [ref=e479]: Données
+                - generic [ref=e480]: Science Ouverte
+              - heading "Zenodo" [level=3] [ref=e481]
+              - paragraph [ref=e482]: Un dépôt de recherche ouvert à but non lucratif permettant aux chercheurs de déposer des ensembles de données et des logiciels.
+              - generic [ref=e483]:
+                - button "Explorer" [ref=e484] [cursor=pointer]:
+                  - text: Explorer
+                  - img [ref=e485]
+                - button [ref=e489] [cursor=pointer]:
+                  - img [ref=e490]
+          - generic [ref=e493]:
+            - generic [ref=e494]:
+              - img "MIT OpenCourseWare" [ref=e495]
+              - generic [ref=e496]: 2.5k+ Cours
+            - generic [ref=e497]:
+              - generic [ref=e498]:
+                - generic [ref=e499]: Éducation
+                - generic [ref=e500]: Cours
+              - heading "MIT OpenCourseWare" [level=3] [ref=e501]
+              - paragraph [ref=e502]: Une publication en ligne de pratiquement tous les contenus des cours du MIT, ouverte et disponible pour le monde entier.
+              - generic [ref=e503]:
+                - button "Explorer" [ref=e504] [cursor=pointer]:
+                  - text: Explorer
+                  - img [ref=e505]
+                - button [ref=e509] [cursor=pointer]:
+                  - img [ref=e510]
+          - generic [ref=e513]:
+            - generic [ref=e514]:
+              - img "OAPEN Library" [ref=e515]
+              - generic [ref=e516]: 25k+ Livres
+            - generic [ref=e517]:
+              - generic [ref=e518]:
+                - generic [ref=e519]: Académique
+                - generic [ref=e520]: Humanités
+              - heading "OAPEN Library" [level=3] [ref=e521]
+              - paragraph [ref=e522]: Online Library and Publication Platform. Livres académiques en libre accès, principalement en sciences humaines et sociales.
+              - generic [ref=e523]:
+                - button "Explorer" [ref=e524] [cursor=pointer]:
+                  - text: Explorer
+                  - img [ref=e525]
+                - button [ref=e529] [cursor=pointer]:
+                  - img [ref=e530]
+        - generic [ref=e532]:
+          - heading "Contribuez à l'Expansion du Savoir" [level=2] [ref=e533]
+          - paragraph [ref=e534]: Vous connaissez une bibliothèque numérique gratuite de haute qualité qui ne figure pas encore sur notre portail ? Aidez-nous à enrichir ce hub académique au profit de la communauté mondiale.
+          - link "Nous Contacter" [ref=e535] [cursor=pointer]:
+            - /url: mailto:jordanpandji@gmail.com
+  - contentinfo [ref=e536]:
+    - generic [ref=e537]:
+      - generic [ref=e538]:
+        - generic [ref=e539]:
+          - heading "Bibliolinks Academic Hub" [level=2] [ref=e540]
+          - paragraph [ref=e541]: Démocratiser l'accès au savoir académique à travers le monde. Inspiré par l'excellence et l'ouverture.
+        - generic [ref=e542]:
+          - generic [ref=e543]:
+            - heading "Navigation" [level=4] [ref=e544]
+            - list [ref=e545]:
+              - listitem [ref=e546]:
+                - link "Accueil" [ref=e547] [cursor=pointer]:
+                  - /url: /
+              - listitem [ref=e548]:
+                - link "À propos" [ref=e549] [cursor=pointer]:
+                  - /url: /about
+          - generic [ref=e550]:
+            - heading "Contact" [level=4] [ref=e551]
+            - paragraph [ref=e552]:
+              - link "jordanpandji@gmail.com" [ref=e553] [cursor=pointer]:
+                - /url: mailto:jordanpandji@gmail.com
+      - generic [ref=e554]: © 2026 Bibliolinks Academic Hub. Toutes les marques appartiennent à leurs propriétaires respectifs.
