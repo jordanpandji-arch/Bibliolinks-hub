@@ -40,7 +40,7 @@ const Navbar: React.FC = () => {
           alignItems: 'center', 
           gap: '10px'
         }}>
-          <img src="/vite.svg" alt="Bibliolinks Logo" style={{ height: '90px', width: 'auto' }} />
+          <img src="/logo.png" alt="Bibliolinks Logo" style={{ height: '90px', width: 'auto' }} />
         </Link>
 
         <nav className="desktop-nav" style={{ display: 'flex', gap: '2rem' }}>
