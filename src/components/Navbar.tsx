@@ -1,6 +1,6 @@
 /* src/components/Navbar.tsx */
 import React, { useState, useEffect } from 'react';
-import { Search, Menu } from 'lucide-react';
+import { Menu } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import '../styles/global.css';
 
