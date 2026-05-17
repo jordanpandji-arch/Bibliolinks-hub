@@ -28,6 +28,8 @@ const LibraryCard: React.FC<Props> = ({ library }) => {
         <img 
           src={library.image} 
           alt={library.name} 
+          loading="lazy"
+          fetchpriority="low"
           style={{ width: '100%', height: '100%', objectFit: 'cover' }} 
         />
         <div style={{ 
