@@ -4,6 +4,8 @@ import { Menu } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import '../styles/global.css';
 
+import logo from '../assets/logo.png';
+
 const Navbar: React.FC = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -40,7 +42,7 @@ const Navbar: React.FC = () => {
           alignItems: 'center', 
           gap: '10px'
         }}>
-          <img src="/src/assets/logo.png" alt="Bibliolinks Logo" style={{ height: '90px', width: 'auto' }} />
+          <img src={logo} alt="Bibliolinks Logo" style={{ height: '90px', width: 'auto' }} />
         </Link>
 
         <nav className="desktop-nav" style={{ display: 'flex', gap: '2rem' }}>
