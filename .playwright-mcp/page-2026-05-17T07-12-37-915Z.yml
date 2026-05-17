@@ -1,0 +1,74 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - link "Bibliolinks Academic Hub" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e6]: Bibliolinks
+        - generic [ref=e7]: Academic Hub
+      - button [ref=e9] [cursor=pointer]:
+        - img [ref=e10]
+  - generic [ref=e11]:
+    - generic [ref=e14]:
+      - heading "Notre Mission" [level=2] [ref=e15]
+      - heading "Démocratiser l'accès au savoir universel pour chaque esprit curieux." [level=1] [ref=e16]
+    - generic [ref=e18]:
+      - generic [ref=e19]:
+        - heading "L'Origine du Projet" [level=2] [ref=e20]
+        - paragraph [ref=e21]:
+          - text: Le
+          - strong [ref=e22]: Bibliolinks Academic Hub
+          - text: "est né d'une vision simple mais puissante : le savoir ne devrait pas être une ressource réservée à une élite, mais un bien commun accessible à tous, sans barrière géographique ou financière."
+        - paragraph [ref=e23]:
+          - text: Notre mission est de
+          - strong [ref=e24]: centraliser les meilleures bibliothèques numériques gratuites
+          - text: du monde entier. En regroupant ces archives fragmentées sur une plateforme unique, nous offrons aux chercheurs et aux étudiants une porte d'entrée structurée et rapide vers des millions de manuscrits, d'articles scientifiques et d'œuvres littéraires.
+        - paragraph [ref=e25]: Inspirés par l'excellence et l'ouverture d'esprit des plus grandes institutions académiques, nous agissons comme un canal d'accès privilégié, une passerelle moderne vers la connaissance mondiale.
+      - generic [ref=e28]:
+        - text: 25+
+        - text: Partenaires Archivistes
+    - generic [ref=e30]:
+      - heading "Nos Piliers Fondamentaux" [level=2] [ref=e32]
+      - generic [ref=e33]:
+        - generic [ref=e34]:
+          - img [ref=e36]
+          - heading "Universalité" [level=3] [ref=e39]
+          - paragraph [ref=e40]: Un accès sans frontières aux manuscrits, thèses et œuvres littéraires mondiales.
+        - generic [ref=e41]:
+          - img [ref=e43]
+          - heading "Intégrité" [level=3] [ref=e45]
+          - paragraph [ref=e46]: Une sélection rigoureuse de sources vérifiées et académiquement reconnues.
+        - generic [ref=e47]:
+          - img [ref=e49]
+          - heading "Accessibilité" [level=3] [ref=e54]
+          - paragraph [ref=e55]: Une interface intuitive et performante adaptée à tous les dispositifs numériques.
+        - generic [ref=e56]:
+          - img [ref=e58]
+          - heading "Éducation" [level=3] [ref=e60]
+          - paragraph [ref=e61]: Soutenir la recherche et l'apprentissage continu à tous les niveaux de la société.
+    - generic [ref=e63]:
+      - heading "Une question ou une proposition ?" [level=2] [ref=e64]
+      - paragraph [ref=e65]: Nous sommes à votre écoute pour toute collaboration ou information.
+      - link "Nous contacter" [ref=e66] [cursor=pointer]:
+        - /url: mailto:jordanpandji@gmail.com
+  - contentinfo [ref=e67]:
+    - generic [ref=e68]:
+      - generic [ref=e69]:
+        - generic [ref=e70]:
+          - heading "Bibliolinks Academic Hub" [level=2] [ref=e71]
+          - paragraph [ref=e72]: Démocratiser l'accès au savoir académique à travers le monde. Inspiré par l'excellence et l'ouverture.
+        - generic [ref=e73]:
+          - generic [ref=e74]:
+            - heading "Navigation" [level=4] [ref=e75]
+            - list [ref=e76]:
+              - listitem [ref=e77]:
+                - link "Accueil" [ref=e78] [cursor=pointer]:
+                  - /url: /
+              - listitem [ref=e79]:
+                - link "À propos" [ref=e80] [cursor=pointer]:
+                  - /url: /about
+          - generic [ref=e81]:
+            - heading "Contact" [level=4] [ref=e82]
+            - paragraph [ref=e83]:
+              - link "jordanpandji@gmail.com" [ref=e84] [cursor=pointer]:
+                - /url: mailto:jordanpandji@gmail.com
+      - generic [ref=e85]: © 2026 Bibliolinks Academic Hub. Toutes les marques appartiennent à leurs propriétaires respectifs.

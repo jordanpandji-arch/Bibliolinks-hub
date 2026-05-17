@@ -1,0 +1,29 @@
+/* src/styles/variables.css */
+
+:root {
+  /* Bibliolinks Official Palette */
+  --Bibliolinks-cardinal: #8C1515;
+  --Bibliolinks-cardinal-dark: #820000;
+  --Bibliolinks-black: #2E2D29;
+  --Bibliolinks-grey-cool: #53565A;
+  --Bibliolinks-grey-warm: #4D4F53;
+  --Bibliolinks-white: #FFFFFF;
+  --Bibliolinks-beige: #F9F6EF;
+  --Bibliolinks-sandstone: #D2C295;
+  
+  /* Modern UI Accents */
+  --text-primary: var(--Bibliolinks-black);
+  --text-secondary: var(--Bibliolinks-grey-cool);
+  --bg-primary: var(--Bibliolinks-white);
+  --bg-secondary: var(--Bibliolinks-beige);
+  
+  /* Spacing & Borders */
+  --container-max: 1200px;
+  --border-radius-sm: 4px;
+  --border-radius-md: 8px;
+  --border-radius-lg: 16px;
+  
+  /* Transitions */
+  --transition-smooth: all 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-fast: all 0.2s ease;
+}
