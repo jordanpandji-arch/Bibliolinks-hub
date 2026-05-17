@@ -66,6 +66,7 @@ const Navbar: React.FC = () => {
       <div style={{ display: 'flex', alignItems: 'center', gap: '1.5rem' }}>
           <button 
             className="mobile-toggle"
+            aria-label="Ouvrir le menu de navigation"
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
             style={{ 
               display: 'none', 
