@@ -42,7 +42,7 @@ export const libraries: Library[] = [
     id: "sci-hub",
     name: "Sci-Hub",
     description: "Une plateforme révolutionnaire fournissant un accès gratuit à presque toutes les publications scientifiques mondiales pour supprimer les barrières au savoir.",
-    url: "https://sci-hub.se",
+    url: "https://sci-hub.li/",
     category: ["Science", "Recherche"],
     stats: "88M+ Articles",
     image: "https://images.unsplash.com/photo-1532094349884-543bc11b234d?q=80&w=1000&auto=format&fit=crop"
