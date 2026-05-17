@@ -206,7 +206,7 @@ const App: React.FC = () => {
             .footer-content { flex-direction: row; }
           }
           @media (max-width: 768px) {
-            .main-footer { padding: 40px 0; }
+            .main-footer { padding: 20px 0; }
           }
         `}</style>
       </footer>
