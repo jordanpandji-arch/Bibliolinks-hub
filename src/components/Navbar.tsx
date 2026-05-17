@@ -38,14 +38,9 @@ const Navbar: React.FC = () => {
         <Link to="/" style={{ 
           display: 'flex', 
           alignItems: 'center', 
-          gap: '10px',
-          fontFamily: 'Source Serif 4, serif',
-          fontSize: '1.5rem',
-          fontWeight: 700,
-          color: isScrolled ? 'var(--Bibliolinks-cardinal)' : 'var(--Bibliolinks-white)'
+          gap: '10px'
         }}>
-          <span style={{ color: 'var(--Bibliolinks-cardinal)' }}>Bibliolinks</span>
-          <span style={{ fontWeight: 400 }}>Academic Hub</span>
+          <img src="/src/assets/logo.png" alt="Bibliolinks Logo" style={{ height: '90px', width: 'auto' }} />
         </Link>
 
         <nav className="desktop-nav" style={{ display: 'flex', gap: '2rem' }}>
