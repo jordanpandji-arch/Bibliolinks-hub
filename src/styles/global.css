@@ -54,3 +54,14 @@ button {
 /* Institutional Utility Classes */
 .text-cardinal { color: var(--Bibliolinks-cardinal); }
 .bg-cardinal { background-color: var(--Bibliolinks-cardinal); }
+
+.main-footer { padding: 40px 0; }
+.footer-content { flex-direction: column; }
+
+@media (min-width: 768px) {
+  .footer-content { flex-direction: row; }
+}
+
+@media (max-width: 768px) {
+  .main-footer { padding: 20px 0; }
+}
