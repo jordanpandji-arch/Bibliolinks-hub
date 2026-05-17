@@ -24,7 +24,7 @@ const LibraryCard: React.FC<Props> = ({ library }) => {
         transition: 'var(--transition-smooth)'
       }}
     >
-      <div style={{ height: '200px', overflow: 'hidden', position: 'relative' }}>
+      <div style={{ aspectRatio: '16/9', overflow: 'hidden', position: 'relative' }}>
         <img 
           src={library.image} 
           alt={library.name} 
@@ -32,12 +32,12 @@ const LibraryCard: React.FC<Props> = ({ library }) => {
         />
         <div style={{ 
           position: 'absolute', 
-          top: '1rem', 
-          right: '1rem', 
+          top: '0.8rem', 
+          right: '0.8rem', 
           backgroundColor: 'rgba(140, 21, 21, 0.9)', 
           color: 'white',
-          padding: '0.4rem 0.8rem',
-          fontSize: '0.8rem',
+          padding: '0.3rem 0.6rem',
+          fontSize: '0.75rem',
           fontWeight: 700,
           borderRadius: 'var(--border-radius-sm)',
           backdropFilter: 'blur(4px)'
@@ -46,7 +46,7 @@ const LibraryCard: React.FC<Props> = ({ library }) => {
         </div>
       </div>
 
-      <div style={{ padding: '2rem', flexGrow: 1, display: 'flex', flexDirection: 'column' }}>
+      <div style={{ padding: '1.5rem', flexGrow: 1, display: 'flex', flexDirection: 'column' }}>
         <div style={{ display: 'flex', gap: '0.5rem', marginBottom: '1rem', flexWrap: 'wrap' }}>
           {library.category.map(cat => (
             <span key={cat} style={{ 

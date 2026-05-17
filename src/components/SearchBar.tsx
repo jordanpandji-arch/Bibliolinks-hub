@@ -11,11 +11,11 @@ interface Props {
 const SearchBar: React.FC<Props> = ({ searchTerm, onSearchChange }) => {
   return (
     <div style={{ 
+      width: '90%',
       maxWidth: '800px', 
       margin: '-40px auto 4rem', 
       position: 'relative', 
-      zIndex: 10,
-      padding: '0 1rem' 
+      zIndex: 10
     }}>
       <motion.div
         initial={{ opacity: 0, y: 20 }}

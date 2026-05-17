@@ -50,8 +50,8 @@ const HomePage: React.FC = () => {
             layout
             style={{ 
               display: 'grid', 
-              gridTemplateColumns: 'repeat(auto-fill, minmax(350px, 1fr))', 
-              gap: '2.5rem' 
+              gridTemplateColumns: 'repeat(auto-fill, minmax(280px, 1fr))', 
+              gap: '2rem' 
             }}
           >
             <AnimatePresence mode="popLayout">
@@ -124,6 +124,37 @@ const HomePage: React.FC = () => {
   );
 };
 
+const BackToTopButton = () => {
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
+  return (
+    <div style={{ padding: '2rem 0', textAlign: 'center', display: 'none' }} className="mobile-only-back-to-top">
+      <button 
+        onClick={scrollToTop}
+        style={{
+          backgroundColor: 'var(--Bibliolinks-cardinal)',
+          color: 'white',
+          padding: '0.8rem 1.5rem',
+          borderRadius: 'var(--border-radius-sm)',
+          fontWeight: 700,
+          textTransform: 'uppercase',
+          fontSize: '0.8rem',
+          letterSpacing: '1px'
+        }}
+      >
+        Retour en haut
+      </button>
+      <style>{`
+        @media (max-width: 768px) {
+          .mobile-only-back-to-top { display: block !important; }
+        }
+      `}</style>
+    </div>
+  );
+};
+
 const App: React.FC = () => {
   return (
     <Router>
@@ -133,16 +164,20 @@ const App: React.FC = () => {
         <Route path="/" element={<HomePage />} />
         <Route path="/about" element={<About />} />
       </Routes>
-      <footer style={{ padding: '80px 0', backgroundColor: 'var(--Bibliolinks-cardinal)', color: 'white' }}>
+      <BackToTopButton />
+      <footer 
+        className="main-footer"
+        style={{ backgroundColor: 'var(--Bibliolinks-cardinal)', color: 'white' }}
+      >
         <div className="container">
-          <div style={{ display: 'flex', justifyContent: 'space-between', flexWrap: 'wrap', gap: '3rem' }}>
-            <div>
+          <div style={{ display: 'flex', flexDirection: 'column', md: { flexDirection: 'row' }, justifyContent: 'space-between', flexWrap: 'wrap', gap: '3rem' }}>
+            <div style={{ flex: '1 1 300px' }}>
               <h2 style={{ color: 'white', marginBottom: '1.5rem', borderBottom: '2px solid rgba(255,255,255,0.3)', display: 'inline-block', paddingBottom: '0.5rem' }}>Bibliolinks Academic Hub</h2>
-              <p style={{ maxWidth: '300px', color: 'rgba(255,255,255,0.9)', fontSize: '0.9rem' }}>
+              <p style={{ color: 'rgba(255,255,255,0.9)', fontSize: '0.9rem' }}>
                 Démocratiser l'accès au savoir académique à travers le monde. Inspiré par l'excellence et l'ouverture.
               </p>
             </div>
-            <div style={{ display: 'flex', gap: '4rem' }}>
+            <div style={{ display: 'flex', gap: '2rem', flexWrap: 'wrap' }}>
               <div>
                 <h4 style={{ marginBottom: '1.5rem', fontSize: '0.8rem', textTransform: 'uppercase', letterSpacing: '1px', fontWeight: 800 }}>Navigation</h4>
                 <ul style={{ display: 'flex', flexDirection: 'column', gap: '0.8rem', color: 'rgba(255,255,255,0.9)', fontSize: '0.9rem' }}>
@@ -164,6 +199,12 @@ const App: React.FC = () => {
             © 2026 Bibliolinks Academic Hub. Toutes les marques appartiennent à leurs propriétaires respectifs.
           </div>
         </div>
+        <style>{`
+          .main-footer { padding: 80px 0; }
+          @media (max-width: 768px) {
+            .main-footer { padding: 40px 0; }
+          }
+        `}</style>
       </footer>
     </Router>
   );

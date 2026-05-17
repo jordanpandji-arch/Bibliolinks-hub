@@ -119,6 +119,7 @@ const Navbar: React.FC = () => {
         @media (max-width: 768px) {
           .desktop-nav { display: none !important; }
           .mobile-toggle { display: block !important; }
+          .navbar { height: 60px !important; }
         }
       `}</style>
     </header>
